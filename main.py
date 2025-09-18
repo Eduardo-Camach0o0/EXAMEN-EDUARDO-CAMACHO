@@ -20,7 +20,19 @@ def areaRectanguloMain():
 
     print (instacia.mostrarAreaRectangulo())
 
+def areaCirculoMain():
+    radio = float(input("Ingrese su  radio: "))
+  
 
-areaTrianguloMain()
+    instacia = figuras1()
 
-areaRectanguloMain()
+    instacia.areaCirculo(radio)
+
+    print (instacia.mostartCirculo())
+
+
+# areaTrianguloMain()
+
+# areaRectanguloMain()
+
+areaCirculoMain()
